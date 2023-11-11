@@ -1,0 +1,49 @@
+.conn {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.infBtn {
+    /* background-color: rgb(13, 11, 51); */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    /* color: whitesmoke; */
+
+    color: white;
+    border: 1px solid rgba(74, 33, 239, 0.3);
+    border-radius: 5px;
+    /* align-self: center; */
+
+    background-color: rgba(74, 33, 239, 1);
+    width: 100%;
+    /* max-width: 200px; */
+    margin-bottom: 7px;
+    text-align: center;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.infBtn:hover {
+    background-color: rgba(74, 33, 239, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s;
+}
+
+@media (max-width:650px) {
+    .infBtn {
+        padding: 7px 0;
+    }
+}
+
+#one-wallet {
+    margin-top: -70px !important;
+}

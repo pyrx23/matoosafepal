@@ -1,0 +1,1151 @@
+<script>
+    var url_lang = "en";
+</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta HTTP-EQUIV="Content-Type" content="text/html; charset=SHIFT_JIS"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
+    <meta name="description"
+        content="Using crypto can be difficult and intimidating. We at SafePal strive to make it safe and easy for your day-to-day usage by building secure products, friendly UX and ultra-protection against scams and hacks. Click to learn more.">
+    <meta name="keywords"
+        content="SafePal official Bitcoin Ethereum ERC20 SOL BNB secure mobile offline browser extension cryptocurrency wallet private key crypto APY">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>SafePal | Learn about how we make crypto secure</title>
+
+    <!-- Favicons -->
+    <link href="/favicon.ico" rel="icon">
+    <!-- ios apple-touch-icon私有属性，添加该属性，在iPhone,iPad,iTouch的safari浏览器上可以使用添加到主屏按钮将网站添加到主屏幕上 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/ios-touch-icon/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/ios-touch-icon/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/ios-touch-icon/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/ios-touch-icon/touch-icon-iphone.png" />
+
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet"> -->
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/animate.css/animate.min.css?v=2023080111691390839544" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css?v=2023080111691390839544" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css?v=2023080111691390839544" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css?v=2023080111691390839544" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css?v=2023080111691390839544" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css?v=2023080111691390839544" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="../assets/css/common.css?v=2023080111691390839544">
+    <link rel="stylesheet" href="../assets/css/header.css?v=2023080111691390839544">
+    <link rel="stylesheet" href="../assets/css/footer.css?v=2023080111691390839544">
+
+    <!-- <link href="../assets/css/style.css?v=2023080111691390839544" rel="stylesheet"> -->
+    <script>
+        var email_can_not_be_empty = "Email can not be empty!";
+        var email_format_is_not_correct = "Email format is not correct!";
+        var thank_you_for_subscribing = "Thank you for subscribing!";
+        var please_input_correct_email = "Please input correct email";
+        var please_input_your_first_name = "Please input your first name";
+        var please_input_your_last_name = "Please input your last name";
+        var please_input_your_job_title = "Please input your job title";
+        var please_input_correct_website = "Please input correct website";
+        var please_input_zipcode = "Please input zipcode";
+        var please_input_country_or_region = "Please input Country or region";
+        var current_lang = "en";
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW1PZY4LZ8"></script>
+    <script>
+        // if (['/checkout', '/s1', '/cypher', '/leathercase', '/payment', '/successful'].includes(location.pathname)) {
+        //     window.dataLayer = window.dataLayer || [];
+        //     function gtag(){dataLayer.push(arguments);}
+        //     gtag('js', new Date());
+        //     gtag('config', 'G-DW1PZY4LZ8');
+        // }
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DW1PZY4LZ8');
+    </script>
+    <link rel="stylesheet" href="./style_mod.css">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container-xxl banner-container-1440 banner-container-991">
+            <div class="justify-content-center align-items-center">
+                <div class="d-flex align-items-center justify-content-between">
+                    <!-- pc - 浅色logo - 白底 -->
+                    <a href="/" class="logo logo-light">
+                        <img src="../assets/img/logo-light.svg" alt="" class="img-fluid"></a>
+                    <!-- pc - 深色logo -->
+                    <a href="/" class="logo logo-dark">
+                        <img src="../assets/img/logo-dark.svg" alt="" class="img-fluid"></a>
+                    <!-- m 端 --浅色logo  -->
+                    <a href="/" class="final-mark-logo">
+                        <img style="height:24px;" src="../assets/img/logo-light.svg" alt="" class="img-fluid"></a>
+                    <!-- m 端 --深色logo -->
+                    <a href="/" class="final-dark-logo">
+                        <img style="height:24px;" src="../assets/img/logo-dark.svg" alt="" class="img-fluid"></a>
+
+                    <!-- m 端 --浅色logo  -->
+                    <!-- <a href="/" class="final-mark-logo">
+                    <img src="../assets/img/safepal-final-mark-logo.svg" alt="" class="img-fluid"></a> -->
+                    <!-- m 端 --深色logo -->
+                    <!-- <a href="" class="final-dark-logo">
+                    <img src="../assets/img/safepal-final-dark-logo.svg" alt="" class="img-fluid"></a> -->
+                    <nav id="navbar" class="navbar">
+                        <div id="language-m" class="position-relative d-lg-none language"></div>
+                        <!-- 移动端出现的下载按钮 -->
+                        <div class="d-lg-none show-download-btn downloads-btn">
+                            <!-- <div class="">
+                            <a href="/download">
+                                <button type="button" class="btn-common my-downloads-btn animate__animated animate__pulse">Download</button>
+                            </a>
+                        </div> -->
+                            <div class="downloads-nav-toggle">
+                                <a class="interact-button">
+                                    <svg class="mobile-download-light" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15"
+                                            stroke="#FCFCFC" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M7 10L12 15L17 10" stroke="#FCFCFC" stroke-width="1.25"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M12 15V3" stroke="#FCFCFC" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <svg class="mobile-download-dark" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15"
+                                            stroke="#0D0B33" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M7 10L12 15L17 10" stroke="#0D0B33" stroke-width="1.25"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M12 15V3" stroke="#0D0B33" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <ul>
+                            <div
+                                class="d-lg-none d-flex justify-content-between align-items-center dropdown-mobile-logo">
+                                <div class="dropdown-logo">
+                                    <img src="../assets/img/dropdown-mobile-logo.svg" alt="" srcset="">
+                                </div>
+                                <div class="dropdown-off">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path
+                                            d="M9.636 8.223L17.131 0.727997L19.272 2.86899L11.777 10.364L19.272 17.859L17.131 20L9.636 12.505L2.141 20L0 17.859L7.495 10.364L0 2.86899L2.141 0.727997L9.636 8.223Z"
+                                            fill="#4A21EF" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <li class="dropdown new-dropdown">
+                                <a class="scrollto" href="#hero">
+                                    <span>Products</span>
+                                    <i class="bi bi-chevron-down"></i>
+                                    <i class="bi bi-caret-down-fill"></i>
+                                    <i style="display: none;" class="bi bi-caret-up-fill"></i>
+                                    <i class="d-lg-none bi bi-plus"></i>
+                                    <i class="d-lg-none bi bi-dash"></i>
+                                </a>
+                                <ul class="d-none d-lg-block dropdown-box">
+                                    <div class="dropdown-box-content">
+                                        <div class="dropdown-box-item">
+                                            <h3 class="title">Wallets</h3>
+                                            <div class="">
+                                                <li data-path="/appinfo"><a href="/appinfo">SafePal App</a></li>
+                                                <li data-path="/extension"><a href="/extension">SafePal Extension</a>
+                                                </li>
+                                                <li data-path="https://www.safepal.com/en/s1"><a
+                                                        href="https://www.safepal.com/en/s1">Hardware Wallet</a></li>
+                                                <!-- <li><a href="/s1">Hardware Wallet</a></li> -->
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-box-item">
+                                            <h3 class="title">Accessories</h3>
+                                            <div class="">
+                                                <li data-path="https://www.safepal.com/en/cypher"><a
+                                                        href="https://www.safepal.com/en/cypher">Cypher</a></li>
+                                                <li data-path="https://www.safepal.com/en/leathercase"><a
+                                                        href="https://www.safepal.com/en/leathercase">Leather Case</a>
+                                                </li>
+
+                                                <!-- <li><a href="/cypher">Cypher</a></li> -->
+                                                <!-- <li><a href="/leathercase">Leather Case</a></li> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                                <ul class="d-lg-none dropdown-mobile">
+                                    <li><a href="/appinfo">SafePal App</a></li>
+                                    <li><a href="/extension">SafePal Extension</a></li>
+                                    <li><a href="https://www.safepal.com/en/s1">Hardware Wallet</a></li>
+                                    <li><a href="https://www.safepal.com/en/cypher">Cypher</a></li>
+                                    <li><a href="https://www.safepal.com/en/leathercase">Leather Case</a></li>
+
+                                    <!-- <li><a href="/s1">Hardware Wallet</a></li> -->
+                                    <!-- <li><a href="/cypher">Cypher</a></li> -->
+                                    <!-- <li><a href="/leathercase">Accessories</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="scrollto" href="/coin/lists">Assets</a></li>
+                            <li class="dropdown new-dropdown">
+                                <!-- <a class="scrollto" href="https://blog.safepal.com?tab=SafePal Academy">Learn</a> -->
+                                <a class="scrollto" href="#hero">
+                                    <span>Learn</span>
+                                    <i class="bi bi-caret-down-fill"></i>
+                                    <i style="display: none;" class="bi bi-caret-up-fill"></i>
+                                    <i class="d-lg-none bi bi-plus"></i>
+                                    <i class="d-lg-none bi bi-dash"></i>
+                                </a>
+                                <ul class="d-none d-lg-block dropdown-box">
+                                    <div class="dropdown-box-content">
+                                        <div class="dropdown-box-item">
+                                            <div class="">
+                                                <!-- <li><a href="/">Get started width SafePal</a></li> -->
+                                                <li><a href="https://blog.safepal.com?tab=SafePal Academy">SafePal
+                                                        Academy</a></li>
+                                                <li><a href="https://safepalsupport.zendesk.com/hc/en-us">Help
+                                                        Center</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                                <ul class="d-lg-none dropdown-mobile">
+                                    <!-- <li><a href="/">Get started width SafePal</a></li> -->
+                                    <li><a href="https://blog.safepal.com?tab=SafePal Academy">SafePal Academy</a></li>
+                                    <li><a href="https://safepalsupport.zendesk.com/hc/en-us">Help Center</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown new-dropdown">
+                                <!-- <a class="scrollto" href="/about">About</a> -->
+                                <a class="scrollto" href="#hero">
+                                    <span>About</span>
+                                    <i class="bi bi-caret-down-fill"></i>
+                                    <i style="display: none;" class="bi bi-caret-up-fill"></i>
+                                    <i class="d-lg-none bi bi-plus"></i>
+                                    <i class="d-lg-none bi bi-dash"></i>
+                                </a>
+                                <ul class="d-none d-lg-block dropdown-box">
+                                    <div class="dropdown-box-content">
+                                        <div class="dropdown-box-item">
+                                            <div class="">
+                                                <li data-path="/about"><a href="/about">About Us</a></li>
+                                                <!-- <li><a href="/joinus">Career</a></li> -->
+                                                <li data-path="blog"><a href="https://blog.safepal.com">Blog</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                                <ul class="d-lg-none dropdown-mobile">
+                                    <li><a href="/about">About Us</a></li>
+                                    <!-- <li><a href="/joinus">Career</a></li> -->
+                                    <li><a href="https://blog.safepal.com/">Blog</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <i class="mobile-nav-toggle">
+                            <img class="mobile-nav-light" src="../assets/img/icon-meun-mobile.svg" alt="" sizes=""
+                                srcset="">
+                            <!-- 深色 -->
+                            <img class="mobile-nav-dark" src="../assets/img/icon-meun-mobile-dark.svg" alt="" sizes=""
+                                srcset="">
+                        </i>
+                    </nav><!-- .navbar -->
+
+                    <!-- downloads -->
+                    <div class="downloads-btn">
+                        <div id="language" class="position-relative language"></div>
+                        <div class="set-off-btn animate__animated animate__pulse">
+                            <div class="set-off-btn animate__animated animate__pulse">
+                                <a>
+                                    <button type="button"
+                                        class="btn-common my-downloads-btn animate__animated animate__pulse interact-button">Connect</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+
+    <script>
+        // setTimeout(() => {
+        //     if (location.pathname.includes('/checkout')) {
+        //         document.getElementById('cartIcon').style.display = 'none'
+        //     }
+        // }, 200);
+    </script>
+    <header>
+        <link href="../assets/css/header-button.css?v=2023080111691390839544" rel="stylesheet">
+        <link href="../assets/css/secure.css?v=2023080111691390839544" rel="stylesheet">
+    </header>
+    <main id="main" class="secuire">
+
+        <div id="hero" class="hero">
+            <div class="container hero-box">
+                <div class="conn"> <button type="button">Get
+                        Started</button></div>
+                <div class="crypto d-flex align-items-center justify-content-between flex-lg-row flex-column">
+                    <div class="crypto-left" data-aos="fade-up">
+                        <h3>Using crypto can be difficult and intimidating</h3>
+                    </div>
+                    <div class="crypto-right d-flex align-items-center justify-content-between flex-lg-row flex-column">
+                        <div data-aos="fade-up"
+                            class="right-item d-flex align-items-center justify-content-between flex-column">
+                            <div class="top">
+                                <img src="../assets/img/secuire/using_crypto_1.svg" alt="">
+                            </div>
+                            <div class="bottom">
+                                <p>Complicated and expensive fiat on-ramps</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up"
+                            class="right-item d-flex align-items-center justify-content-between flex-column">
+                            <div class="top">
+                                <img src="../assets/img/secuire/using_crypto_2.svg" alt="">
+                            </div>
+                            <div class="bottom">
+                                <p>Understanding technical terms such as gas fee, private key, seed phrase, and more</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up"
+                            class="right-item d-flex align-items-center justify-content-between flex-column">
+                            <div class="top">
+                                <img src="../assets/img/secuire/using_crypto_3.svg" alt="">
+                            </div>
+                            <div class="bottom">
+                                <p>Scams and malicious attacks are prevalent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mistake d-flex align-items-center justify-content-between flex-lg-row flex-column">
+                    <div class="mistake-left row">
+                        <div data-aos="fade-up" class="left-item col-6">
+                            <div class="img">
+                                <img class="img-fluid" src="../assets/img/secuire/mistake_1.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <p>Transfers to the wrong wallet address</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="left-item col-6">
+                            <div class="img">
+                                <img class="img-fluid" src="../assets/img/secuire/mistake_2.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <p>Transfer to the wrong network</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="left-item col-6">
+                            <div class="img">
+                                <img class="img-fluid" src="../assets/img/secuire/mistake_3.svg" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <p>Misplacing your seed phrase</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="left-item col-6">
+                            <div class="img">
+                                <img class="img-fluid d-none d-lg-block" src="../assets/img/secuire/mistake_4.svg"
+                                    alt="" srcset="">
+                                <img class="img-fluid d-lg-none" src="../assets/img/secuire/mistake_4_m.svg" alt=""
+                                    srcset="">
+                            </div>
+                            <div class="text">
+                                <p>Being scammed, phished, and attacked by bad actors</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="mistake-right">
+                        <h3>There are many mistakes which could result in the loss of funds</h3>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="crypto_safe">
+                    <h3>SafePal is here to make crypto safe for you.</h3>
+                </div>
+            </div>
+        </div>
+        <div id="crypto-safe" class="">
+            <div class="container crypto-safe-box">
+                <div class="crypto-item">
+                    <div data-aos="fade-up" class="title">
+                        <h3>We build safe products for day-to-day usage</h3>
+                    </div>
+                    <div class="content d-none d-lg-block">
+                        <div class="content-top row">
+                            <div data-aos="fade-up" class="left-item hardware-wallet">
+                                <div class="left-item-box hardware-wallet-text position-relative">
+                                    <h3 class="title">Hardware Wallet</h3>
+                                    <div class="text">
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>100% offline, without Bluetooth, NFC or WiFi</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Air-gapped signing mechanism to keep your private key isolated from
+                                                attacks</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Device authentication to make sure your device is genuine</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>PIN code display scrambler for better privacy</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Anti-tampering and self-destruct mechanism to safeguard your
+                                                assets</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Secure firmware upgrade to ensure safe access to new features</span>
+                                        </p>
+                                    </div>
+                                    <a href="/s1" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="left-item cypher">
+                                <div class="left-item-box cypher-text position-relative">
+                                    <h3 class="title">Cypher</h3>
+                                    <div class="text">
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Store your seed phrase offline and protect it for maximum
+                                                security</span>
+                                        </p>
+                                    </div>
+                                    <a href="/cypher" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-bottom row">
+                            <div data-aos="fade-up" class="left-item extension">
+                                <div class="left-item-box extension-text position-relative">
+                                    <h3 class="title">Browser Extension Wallet</h3>
+                                    <div class="text">
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Connect with your existing wallets (without exposing your seed phrase
+                                                on the browser)</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Fully decentralized and transparent</span>
+                                        </p>
+                                    </div>
+                                    <a href="/extension" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="left-item mobile-wallet">
+                                <div class="left-item-box mobile-wallet-text position-relative">
+                                    <h3 class="title">Mobile Wallet</h3>
+                                    <div class="text">
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Enable secure fingerprint, pattern, Touch ID, and Face ID login</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Automatically lock up if not used for a period</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Security Password to verify every transaction</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Address verification to prevent mistaken transfers</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Address book to keep your frequently used addresses in one
+                                                place</span>
+                                        </p>
+                                        <p class="d-flex align-items-start justify-content-start"><span>-&nbsp;</span>
+                                            <span>Anti-dust attack mechanism to protect asset security</span>
+                                        </p>
+                                    </div>
+                                    <a href="/app_info" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mobile -->
+                    <div class="content d-lg-none">
+                        <div class="crypto-safe-swiper swiper" data-aos="fade-up">
+                            <div class="swiper-wrapper justify-content-between">
+                                <div class="swiper-slide swiper-slide-item">
+                                    <img class="img-fluid swiper-img" src="../assets/img/secuire/hardware-wallet-m.png"
+                                        alt="">
+                                    <div class="left-item-box hardware-wallet-text-m">
+                                        <h3 class="title">Hardware Wallet</h3>
+                                        <div class="text">
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>100% offline, without
+                                                    Bluetooth, NFC or WiFi</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Air-gapped signing mechanism
+                                                    to keep your private key isolated from attacks</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Device authentication to
+                                                    make sure your device is genuine</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>PIN code display scrambler
+                                                    for better privacy</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Anti-tampering and
+                                                    self-destruct mechanism to safeguard your assets</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Secure firmware upgrade to
+                                                    ensure safe access to new features</span></p>
+                                        </div>
+                                        <a href="/s1" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-item">
+                                    <img class="img-fluid swiper-img" src="../assets/img/secuire/cypher-m.png" alt="">
+                                    <div class="left-item-box cypher-text-m">
+                                        <h3 class="title">Cypher</h3>
+                                        <div class="text">
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Store your seed phrase
+                                                    offline and protect it for maximum security</span></p>
+                                        </div>
+                                        <a href="/cypher" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-item">
+                                    <img class="img-fluid swiper-img" src="../assets/img/secuire/extension-m.png"
+                                        alt="">
+                                    <div class="left-item-box extension-text-m">
+                                        <h3 class="title">Browser Extension Wallet</h3>
+                                        <div class="text">
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Connect with your existing
+                                                    wallets (without exposing your seed phrase on the browser)</span>
+                                            </p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Fully decentralized and
+                                                    transparent</span></p>
+                                        </div>
+                                        <a href="/extension" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-item">
+                                    <img class="img-fluid swiper-img" src="../assets/img/secuire/mobile-wallet-m.png"
+                                        alt="">
+                                    <div class="left-item-box mobile-wallet-text-m">
+                                        <h3 class="title">Mobile Wallet</h3>
+                                        <div class="text">
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Enable secure fingerprint,
+                                                    pattern, Touch ID, and Face ID login</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Automatically lock up if not
+                                                    used for a period</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Security Password to verify
+                                                    every transaction</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Address verification to
+                                                    prevent mistaken transfers</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Address book to keep your
+                                                    frequently used addresses in one place</span></p>
+                                            <p class="d-flex align-items-start justify-content-start"><span
+                                                    style="margin-right:5px">•</span> <span>Anti-dust attack mechanism
+                                                    to protect asset security</span></p>
+                                        </div>
+                                        <a href="/app_info" target="_blank" rel="noopener noreferrer">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="crypto-safe-swiper-pagination" data-aos="fade-up"></div>
+                    </div>
+                </div>
+                <div class="crypto-item dapp-experience-box">
+                    <div class="title" data-aos="fade-up">
+                        <h3>Your DApp experience is protected at all times</h3>
+                    </div>
+                    <div data-aos="fade-up"
+                        class="content row dapp-experience d-flex align-items-end justify-content-lg-between justify-content-center">
+                        <div class="experience-item">
+                            <div class="img">
+                                <img class="img-fluid" src="../assets/img/secuire/experience-1.png" alt="" srcset="">
+                            </div>
+                            <div class="text d-lg-none">
+                                <h3>Approval Manager</h3>
+                                <p>Review and revoke any smart contracts at any time</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <!-- <div class="img box">
+                            <p class="box-title">Security Warning</p>
+                            <div class="box-text">
+                                <p>This domain is currently on the SafePal domain warning list. Based on the information we have, SafePal believes this domain could compromise your wallet security, thus we have restricted the access to this site.</p>
+                            </div>
+                            <div class="box-tips">
+                                <img src="../assets/img/secuire/fi_info.svg" alt="" srcset="">
+                                <p>Please note that our warning list is on a voluntary basis. It may be inaccurate or incomplete. Please be careful, do more research and do not connect your wallet to suspicious DApps.</p>
+                            </div>
+                            <div class="box-btn">Close</div>
+                        </div> -->
+                            <div class="img">
+                                <img class="img-fluid" src="../assets/img/secuire/experience-2.png" alt="" srcset="">
+                            </div>
+                            <div class="text d-lg-none">
+                                <h3>DApp Screening</h3>
+                                <p>Enhancing security by filtering malicious DApps</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <!-- <div class="img box">
+                            <p class="box-title">Security Warning</p>
+                            <div class="box-text">
+                                <p>This contract is currently on the SafePal warning list. Based on the information we have, SafePal believes this contract could compromise your wallet security, thus we have restricted the approval to this contract.</p>
+                            </div>
+                            <div class="box-tips">
+                            <img src="../assets/img/secuire/fi_info.svg" alt="" srcset="">
+                                <p>Please note that our warning list is on a voluntary basis. It may be inaccurate or incomplete. Please be careful, do more research.</p>
+                            </div>
+                            <div class="box-btn">Close</div>
+                        </div> -->
+                            <div class="img">
+                                <img class="img-fluid" src="../assets/img/secuire/experience-3.png" alt="" srcset="">
+                            </div>
+                            <div class="text d-lg-none">
+                                <h3>DApp Blacklisting</h3>
+                                <p>Block out malicious DApps to protect your decentralized browsing experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up"
+                        class="content-text row dapp-experience d-flex align-items-start justify-content-between">
+                        <div class="experience-item d-none d-lg-block">
+                            <div class="text">
+                                <h3>Approval Manager</h3>
+                                <p>Review and revoke any smart contracts at any time</p>
+                            </div>
+                        </div>
+                        <div class="experience-item d-none d-lg-block">
+                            <div class="text">
+                                <h3>DApp Screening</h3>
+                                <p>Enhancing security by filtering malicious DApps</p>
+                            </div>
+                        </div>
+                        <div class="experience-item d-none d-lg-block">
+                            <div class="text">
+                                <h3>DApp Blacklisting</h3>
+                                <p>Block out malicious DApps to protect your decentralized browsing experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="experience-download-btn">
+                        <div class="btn-out set-off-btn animate__animated animate__pulse">
+                            <div class="btn-inner set-off-btn animate__animated animate__pulse">
+                                <a href="/download"><button type="button"
+                                        class="downloads-btn animate__animated animate__pulse light-green-effect">Download
+                                        App</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="storage-zero-tolerance">
+                    <div data-aos="fade-up" class="storage-leakage row ">
+                        <div class="item-left">
+                            <img class="img-fluid" src="../assets/img/secuire/storage-leakage.png" alt="">
+                        </div>
+                        <div class="item-right">
+                            <h3>No data storage or leakage</h3>
+                            <p>SafePal is a decentralized wallet accessible to all users. It doesn't require any
+                                registration, KYC or identity verification. We don't store any personal information,
+                                including those for purchase orders. All purchase information is removed every 12
+                                months.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="zero-tolerance row">
+                        <div class="item-left">
+                            <h3>We have a zero-tolerance policy for scams and fake accounts</h3>
+                            <p>SafePal takes strong actions against fake accounts, scam DApps or social accounts. We
+                                have a full time team dedicated to taking down the malicious accounts, DApps and URLs.
+                            </p>
+                        </div>
+                        <div class="item-right">
+                            <div class="dapp item">
+                                <p class="num purecounter" data-purecounter-start="0" data-purecounter-end="482"
+                                    data-purecounter-duration="1">482</p>
+                                <p class="text">Reported and filtered malicious DApps</p>
+                            </div>
+                            <div class="websites item">
+                                <p class="num purecounter" data-purecounter-start="0" data-purecounter-end="1296"
+                                    data-purecounter-duration="1">1296</p>
+                                <p class="text">Reported phishing websites</p>
+                            </div>
+                            <div class="accounts item">
+                                <p class="num purecounter" data-purecounter-start="0" data-purecounter-end="87"
+                                    data-purecounter-duration="1">87</p>
+                                <p class="text">Reported scam or fake social media accounts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="help-guide">
+                    <div class="help-guide-box">
+                        <h3 class="title">We are always here to help and provide guidance</h3>
+                        <div class="box-content d-none d-lg-block">
+                            <div class="d-flex align-items-start justify-content-between">
+                                <div class="show-text">
+                                    <div data-name="infographic" class="text-item text-infographic active">SafePal
+                                        Infographic: Friendly and easy-to-understand crypto knowledge shared on social
+                                        media</div>
+                                    <a data-name="academy" class="text-item text-academy"
+                                        href="https://blog.safepal.com/">
+                                        SafePal Academy: Comprehensive articles explaining everything about blockchain,
+                                        crypto and wallets </a>
+                                    <a data-name="helpCenter" class="text-item text-help-center"
+                                        href="https://safepalsupport.zendesk.com/hc/en-us">
+                                        SafePal Help Center: All essential information about SafePal products and crypto
+                                        usage </a>
+                                </div>
+                                <div class="show-img">
+                                    <img data-name="infographic" class="infographic img-fluid"
+                                        src="../assets/img/secuire/infographic.png" alt="">
+                                    <img data-name="academy" class="academy img-fluid d-none"
+                                        src="../assets/img/secuire/academy.png" alt="">
+                                    <img data-name="helpCenter" class="help-center img-fluid d-none"
+                                        src="../assets/img/secuire/help-center.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-content d-lg-none">
+                            <div class="help-guide-swiper swiper" data-aos="fade-up">
+                                <div class="swiper-wrapper justify-content-between">
+                                    <div class="swiper-slide swiper-slide-item">
+                                        <div class="show-img">
+                                            <img class="infographic img-fluid"
+                                                src="../assets/img/secuire/infographic-m.png" alt="">
+                                        </div>
+                                        <div class="show-text">
+                                            <div class="text-item text-infographic">SafePal Infographic: Friendly and
+                                                easy-to-understand crypto knowledge shared on social media</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-item">
+                                        <a href="https://blog.safepal.com/">
+                                            <div class="show-img">
+                                                <img class="academy img-fluid" src="../assets/img/secuire/academy-m.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="show-text">
+                                                <div class="text-item text-academy">SafePal Academy: Comprehensive
+                                                    articles explaining everything about blockchain, crypto and wallets
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-item">
+                                        <a href="https://safepalsupport.zendesk.com/hc/en-us">
+                                            <div class="show-img">
+                                                <img class="help-center img-fluid"
+                                                    src="../assets/img/secuire/help-center-m.png" alt="">
+                                            </div>
+                                            <div class="show-text">
+                                                <div class="text-item text-help-center">SafePal Help Center: All
+                                                    essential information about SafePal products and crypto usage</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help-guide-swiper-pagination" data-aos="fade-up"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="start-crypto">
+                    <div class="start-crypto-title">
+                        <h3 class="title">Start your safe crypto journey today</h3>
+                    </div>
+                    <div class="start-crypto-content">
+                        <img class="img-fluid d-none d-lg-block" src="../assets/img/secuire/start-crypto.png" alt=""
+                            srcset="">
+                        <img class="img-fluid d-lg-none" src="../assets/img/secuire/start-crypto-m.png" alt=""
+                            srcset="">
+                        <div class="download">
+                            <div class="btn-out set-off-btn animate__animated animate__pulse">
+                                <div class="btn-inner set-off-btn animate__animated animate__pulse">
+                                    <a href="/download"><button type="button"
+                                            class="downloads-btn animate__animated animate__pulse light-green-effect">Download
+                                            SafePal Wallet</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="excessive-background"></div>
+    </main>
+    <div class="one-wallet-footer">
+        <div class="one-wallet-footer-main">
+            <!-- ================= ---------one - wallet--------- ===================== -->
+            <section id="one-wallet">
+                <div class="one-wallet d-flex justify-content-center align-items-center flex-column">
+                    <div class="sfp-logo d-flex justify-content-center align-items-center">
+                        <div class="logo-box move-animation-Y">
+                            <img class="img-fluid" src="../assets/img/safePal-extension-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="title animate__animated animate__fadeInDown">
+                        <h3>Everything you need in one wallet.</h3>
+                    </div>
+                    <div class="download">
+                        <div class="btn-out set-off-btn animate__animated animate__pulse">
+                            <div class="btn-inner set-off-btn animate__animated animate__pulse">
+                                <a href="/download"><button type="button"
+                                        class="downloads-btn animate__animated animate__pulse light-green-effect">Download
+                                        SafePal Wallet</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <script>
+                var getLangPrefix = "";
+            </script>
+            <!-- ======= Footer ======= -->
+            <footer id="footer">
+                <div class="container footer-top">
+                    <div class="row footer-top-box">
+                        <div
+                            class="col-lg col-md-6 col-sm-6 col-6 order-lg-1 order-md-1 order-sm-1 footer-products col-xs-6 top-item">
+                            <h3>Products</h3>
+                            <ul>
+                                <li><a href="/app_info">SafePal App</a></li>
+                                <li><a href="https://www.safepal.com/en/s1">Hardware Wallet</a></li>
+                                <li><a href="/extension">Extension Wallet</a></li>
+                                <li><a href="https://www.safepal.com/en/cypher">Cypher Seed Board</a></li>
+                                <li><a href="https://www.safepal.com/en/leathercase">Leather Case</a></li>
+                                <li><a href="/upgrade">Firmware Upgrade</a></li>
+                                <li><a href="/kol">Experts' Reviews</a></li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="col-lg col-md-6 col-sm-6 col-6 order-lg-2 order-md-3 order-sm-3 footer-support col-xs-6 top-item">
+                            <h3>Support</h3>
+                            <ul>
+                                <li><a href="https://safepalsupport.zendesk.com/hc/en-us">Help Center</a></li>
+                                <li><a href="/track">Track my order</a></li>
+                                <li><a
+                                        href="https://safepalsupport.zendesk.com/hc/en-us/categories/360004554271-Troubleshooting">Technical
+                                        Issues</a></li>
+                                <li><a href="https://safepalsupport.zendesk.com/hc/en-us/articles/360047261272">Device
+                                        Authentication</a></li>
+                                <li><a
+                                        href="https://safepalsupport.zendesk.com/hc/en-us/requests/new?ticket_form_id=360001760732">Submit
+                                        A Request</a></li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="col-lg col-md-6 col-sm-6 col-6 order-lg-3 order-md-5 order-sm-5 footer-partner col-xs-6 top-item">
+                            <h3>Partner</h3>
+                            <ul>
+                                <li><a href="/reseller">Reseller</a></li>
+                                <li><a href="/affiliate">Affiliate</a></li>
+                                <li><a target="_blanck" href="https://forms.gle/YJqSv326oR5i49g29">Submit a Token</a>
+                                </li>
+                                <li><a target="_blanck" href="https://forms.gle/4czF6T9Z569uyU2h8">Submit a DApp</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div
+                            class="col-lg col-md-6 col-sm-6 col-6 order-lg-4 order-md-2 order-sm-2 footer-about col-xs-6 top-item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="/about/">The Company</a></li>
+                                <!--                    <li><a href="">Careers</a></li>-->
+                                <li><a href="/sfp/">SFP Token</a></li>
+                                <li><a href="https://blog.safepal.com/">Blog</a></li>
+                                <li><a href="/brandassets">Brand Resource Center</a></li>
+                                <li><a href="/sitemap">Site Map</a></li>
+
+
+                                <!--                    <li><a href="">Campaigns</a></li>-->
+                                <!--                    <li><a href="https://www.safepal.com/pub/Safepal_Media_Kit.pdf?v=1">Media Kit</a></li>-->
+                                <!--                    <li><a href="#">Contact Us</a></li>-->
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg col-md-6 col-sm-6 col-6 order-lg-5 order-md-4 order-sm-4 footer-legal col-xs-6 top-item">
+                            <h3>Legal</h3>
+                            <ul>
+                                <li><a href="/about/terms">Terms of Service</a></li>
+                                <li><a href="/about/privacy">Privacy Policy</a></li>
+                                <li><a href="/about/shipping">Shipping Policy</a></li>
+                                <li><a href="/about/refund">Refund Policy</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container footer-bottom">
+                    <div
+                        class="copyright d-flex justify-content-between align-items-lg-center align-items-start flex-lg-row flex-column">
+                        <div class="safepay d-flex justify-content-start align-items-center">
+                            <div class="logo">
+                                <img src="../assets/img/footer/icon-safepay-footer.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <p>© 2023 SafePal</p>
+                            </div>
+                        </div>
+                        <div class="contact d-lg-none">
+                            <p
+                                style="word-spacing: inherit;word-break: normal;white-space: break-spaces;word-wrap: break-word;">
+                                Press release contact: <a
+                                    href="/cdn-cgi/l/email-protection#f2bf93809997869b9c95b28193949782939edc919d9f"><span
+                                        class="__cf_email__"
+                                        data-cfemail="cb86aab9a0aebfa2a5ac8bb8aaadaebbaaa7e5a8a4a6">[email&#160;protected]</span></a>
+                            </p>
+                        </div>
+                        <div class="link d-flex align-items-center flex-wrap flex-lg-nowrap">
+                            <div class="contact link-item d-none d-lg-block">
+                                <p>Press release contact: <a
+                                        href="/cdn-cgi/l/email-protection#1855796a737d6c71767f586b797e7d687974367b7775"><span
+                                            class="__cf_email__"
+                                            data-cfemail="5e133f2c353b2a3730391e2d3f383b2e3f32703d3133">[email&#160;protected]</span></a>
+                                </p>
+                            </div>
+                            <div class="link-item twitter">
+                                <a href="https://twitter.com/iSafePal" target="_blacnk"><img style="padding: 4px;"
+                                        src="../assets/img/footer/icon-twitter.svg" alt=""></a>
+
+                            </div>
+                            <div class="link-item discord">
+                                <a href="https://discord.com/invite/BuKynZqRNj" target="_blacnk">
+                                    <img src="../assets/img/footer/icon-discord.svg" alt="" srcset="">
+                                </a>
+
+                            </div>
+                            <div class="link-item youtube">
+                                <a href="https://www.youtube.com/channel/UCfqztNiZWV62Eu9kiqKf6WQ" target="_blacnk">
+                                    <img src="../assets/img/footer/icon-youtube.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="link-item telegram">
+                                <a href="https://t.me/SafePal_official" target="_blacnk">
+                                    <img src="../assets/img/footer/icon-telegram.svg" alt="">
+                                </a>
+
+                            </div>
+                            <div class="link-item instagram">
+                                <a href="https://www.instagram.com/isafepal/" target="_blacnk">
+                                    <img src="../assets/img/footer/icon-instagram.svg" alt="">
+                                </a>
+
+                            </div>
+                            <div class="link-item linkedin">
+                                <a href="https://www.linkedin.com/company/14504410/admin/" target="_blacnk">
+                                    <img src="../assets/img/footer/icon-linkedin.svg" alt="">
+                                </a>
+
+                            </div>
+                            <div class="facebook">
+                                <a href="https://www.facebook.com/iSafePal" target="_blacnk">
+                                    <img src="../assets/img/footer/icon-facebook.svg" alt="">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer><!-- End Footer -->
+
+        </div>
+
+        <a class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="../assets/js/jquery-3.6.0.min.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/ajaxPromise.min.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/jquery-cookie.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/loading.min.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/language.min.js?v=2023080111691390839544"></script>
+        <!-- <script src="../assets/vendor/language.js?v=2023080111691390839544"></script> -->
+        <script src="../assets/vendor/aos/aos.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/glightbox/js/glightbox.min.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/swiper/swiper-bundle.min.js?v=2023080111691390839544"></script>
+        <script src="../assets/vendor/waypoints/noframework.waypoints.js?v=2023080111691390839544"></script>
+        <!-- Template Main JS File -->
+        <script src="../assets/js/common.js?v=2023080111691390839544"></script>
+        <script>
+            // setTimeout(() => {
+            //     if (location.pathname.includes('/checkout')) {
+            //         document.getElementById('cartIcon').style.display = 'none'
+            //     }
+            // }, 200);
+            var $select_text = "select";
+            var $search_text = "Search";
+            var $search_by_name = "Search by name";
+            var $Ok = "Ok";
+            var $cancel = "Cancel";
+            var $items = "items";
+            var $total = "Total";
+            var $my_cart = "My Cart";
+            var $client_country = "NG";
+
+            var $safepal_leather_case = "SafePal Leather Case";
+            var $safepal_cypher_seed_board = "SafePal Cypher Seed Board";
+            var $safepal_s1_hardware_wallet = "SafePal S1 Hardware Wallet";
+            var $checkout = "Checkout";
+            var $standard_shipping = "Standard Shipping";
+            var $express_delivery = "Express Delivery";
+            var $days = "Days";
+
+        </script>
+        <script src="../assets/vendor/purecounter/purecounter.js?v=2023080111691390839544"></script>
+        <script>
+            (function ($) {
+                "use strict";
+                $('.show-text').find('.text-item').each((i, k) => {
+                    $(k).hover(function () {
+                        $(k).siblings().removeClass('active');
+                        $(k).addClass('active');
+                        $('.show-img').find('img').each((index, item) => {
+                            $(item).addClass('d-none');
+                            if ($(item).data('name') === $(k).data('name')) {
+                                $(item).removeClass('d-none')
+                            }
+                        })
+                    });
+                });
+
+                function isMobile() {
+                    return 'navigator' in window && window.navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(Android)|(PlayBook)|(BB10)|(BlackBerry)|(Opera Mini)|(IEMobile)|(webOS)|(MeeGo)/i);
+                }
+                // isMobile()
+                new Swiper('.crypto-safe-swiper', {
+                    loop: true,
+                    speed: 400,
+                    autoplay: {
+                        delay: 2000,
+                        disableOnInteraction: false
+                    },
+                    // autoplay: false,
+                    autoHeight: true,
+                    pagination: {
+                        el: '.crypto-safe-swiper-pagination'
+                    },
+                    slidesPerView: 'auto',
+                    breakpoints: {
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        720: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        992: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        },
+                        1200: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        },
+                        1440: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        },
+                        1920: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        }
+                    }
+                });
+                new Swiper('.help-guide-swiper', {
+                    loop: true,
+                    autoHeight: true,
+                    speed: 400,
+                    autoplay: {
+                        delay: 2000,
+                        disableOnInteraction: false
+                    },
+                    pagination: {
+                        el: '.help-guide-swiper-pagination'
+                    },
+                    slidesPerView: 'auto',
+                    breakpoints: {
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        720: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        992: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        },
+                        1200: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        },
+                        1440: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        },
+                        1920: {
+                            slidesPerView: 'auto',
+                            spaceBetween: 87
+                        }
+                    }
+                });
+            })(jQuery)
+        </script>
+        <script>
+                (function () {
+                    "use strict";
+                    if (location.pathname.includes('/checkout')) {
+                        // $('#language').language();
+                        // $('#language-m').language();
+                    } else {
+                        if (!location.pathname.includes('/payment')) {
+                            window.sessionStorage.removeItem('fill');
+                        }
+                        window.sessionStorage.removeItem('cnHasTurn')
+                    }
+                    $('#language').language();
+                    $('#language-m').language(document.body);
+                    function getUrlParam(name) {
+                        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                        var regexS = "[\\?&]" + name + "=([^&#]*)";
+                        var regex = new RegExp(regexS);
+                        var results = regex.exec(window.location.href);
+                        if (results == null)
+                            return "";
+                        else
+                            return decodeURIComponent(results[1].replace(/\+/g, " "));
+                    }
+                    let channel_code = getUrlParam("item");
+                    if (channel_code) {
+                        $.cookie('channel_code', channel_code, { expires: 3, path: '/' })
+                    } else {
+                        $.cookie('channel_code', 'office1', { expires: 365, path: '/' })
+                    }
+                })()
+        </script>
+</body>
+
+</html>

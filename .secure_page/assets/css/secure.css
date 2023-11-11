@@ -1,0 +1,1228 @@
+#main .hero{
+    padding-top: 220px;
+    background: 
+        url(/assets/img/secuire/star-bg.svg) no-repeat top 100px center,
+      url(/assets/img/secuire/vector-1.svg) no-repeat top left 280px, 
+      url(/assets/img/secuire/vector-2.svg) no-repeat top 160px left 480px, 
+      url(/assets/img/secuire/vector-star.svg) no-repeat bottom -346px right 50px,
+      linear-gradient(180deg, rgba(147, 128, 239, 0.860646) 0%, #DBD3FF 36.77%, #FFFFFF 98.54%);
+    background-size: auto, auto, auto, auto,100% auto;
+    /* background: linear-gradient(180deg, rgba(147, 128, 239, 0.860646) 0%, #DBD3FF 36.77%, #FFFFFF 98.54%); */
+}
+#main .hero .hero-box {
+    margin-top: 24px;
+}
+#main .hero .hero-box .crypto{
+    margin-bottom: 150px;
+}
+#main .hero .hero-box .crypto h3,
+#main .hero .hero-box .mistake h3 {
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 110%;
+    color: #241E6D;
+}
+#main .hero .hero-box .crypto p,
+#main .hero .hero-box .mistake p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+#main .hero .hero-box .crypto .crypto-left {
+    max-width: 420px
+}
+#main .hero .hero-box .crypto .crypto-right {
+    margin: 0px -21px;
+}
+#main .hero .hero-box .crypto .crypto-right .right-item {
+    max-width: 245px;
+    align-self: flex-start;
+    padding: 0px 21px;
+    box-sizing: content-box;
+    text-align: center;
+}
+#main .hero .hero-box .crypto .crypto-right .right-item .top {
+    margin-bottom: 16px;
+}
+#main .hero .hero-box .crypto .crypto-right .right-item .top img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+#main .hero .hero-box .mistake .mistake-left {
+    margin: 0px -34px;
+    margin-top: -18px;
+}
+#main .hero .hero-box .mistake .mistake-left .left-item {
+    padding: 0px 34px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 260px;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+}
+#main .hero .hero-box .mistake .mistake-left .left-item .img {
+    margin-bottom: 10px;
+    height: 108px;
+}
+#main .hero .hero-box .mistake .mistake-left .left-item .img img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+#main .hero .hero-box .mistake .mistake-left .left-item .text p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+#main .hero .hero-box .mistake .mistake-right {
+    max-width: 500px;
+}
+#main .hero .hero-box .crypto_safe {
+    margin-top: 180px;
+}
+#main .hero .hero-box .crypto_safe h3 {
+    color: #241E6D;
+    font-weight: 1000;
+    font-size: 66px;
+    line-height: 120%;
+    text-align: center;
+}
+@media (max-width: 991px) {
+    #main .hero{
+        padding-top: 130px;
+        background: linear-gradient(180deg, rgba(147, 128, 239, 0.860646) 0%, #DBD3FF 36.77%, #FFFFFF 98.54%);
+        background-size: auto 42%;
+        background-repeat: no-repeat;
+    }
+    #main .hero .hero-box {
+        margin-top: 0px;
+        padding: 0px 16px;
+    }
+    #main .hero .hero-box .crypto{
+        margin-bottom: 54px;
+    }
+    #main .hero .hero-box .crypto h3,
+    #main .hero .hero-box .mistake h3 {
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 120%;
+        color: #000000;
+        text-align: center;
+    }
+    #main .hero .hero-box .crypto p,
+    #main .hero .hero-box .mistake p {
+        color: #000000;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+    }
+    #main .hero .hero-box .crypto .crypto-left {
+        max-width: 100%;
+        margin-bottom: 37px;
+    }
+    #main .hero .hero-box .crypto .crypto-right {
+        margin: 0px;
+    }
+    #main .hero .hero-box .crypto .crypto-right .right-item {
+        max-width: 100%;
+        align-self: flex-start;
+        padding: 0px;
+        box-sizing: content-box;
+        margin-bottom: 45px;
+        align-self: center;
+    }
+    #main .hero .hero-box .crypto .crypto-right .right-item .top {
+        margin-bottom: 10px;
+    }
+    #main .hero .hero-box .crypto .crypto-right .right-item .top img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    #main .hero .hero-box .mistake .mistake-left {
+        margin: 0px -10px;
+        /* margin-top: -20px; */
+        order: 1;
+    }
+    #main .hero .hero-box .mistake .mistake-left .left-item {
+        padding: 0px 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 50%;
+        box-sizing: border-box;
+    }
+    #main .hero .hero-box .mistake .mistake-left .left-item .img {
+        margin-bottom: 10px;
+        height: 108px;
+    }
+    #main .hero .hero-box .mistake .mistake-left .left-item .img img{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    #main .hero .hero-box .mistake .mistake-left .left-item .text p {
+        color: #000000;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+    }
+    #main .hero .hero-box .mistake .mistake-right {
+        max-width: 100%;
+        order: 0;
+        margin-top: 0px;
+    }
+    #main .hero .hero-box .crypto_safe {
+        margin-top: 64px;
+        margin-bottom: 42px;
+    }
+    #main .hero .hero-box .crypto_safe h3 {
+        color: #000000;
+        font-weight: 1000;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+    }
+}
+#crypto-safe {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 120px;
+    background: 
+        url(/assets/img/secuire/vector-star.svg) no-repeat top -300px right 50px,
+      url(/assets/img/secuire/vector-3.svg) no-repeat top 100px left 0px,
+      url(/assets/img/secuire/vector-4.svg) no-repeat top 75% right 0px,
+      url(/assets/img/secuire/vector-star.svg) no-repeat top 88% left 50px;
+    background-size: auto, auto, auto;
+}
+#crypto-safe .crypto-item.dapp-experience-box {
+    margin-top: 180px;
+}
+#crypto-safe .crypto-item.experience-item {
+    margin-top: 157px;
+}
+#crypto-safe .crypto-item .title {
+    margin: 48px 0px;
+}
+#crypto-safe .crypto-item .title h3 {
+    color: #241E6D;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+}
+#crypto-safe .crypto-item .content {
+    margin-bottom: 33px;
+}
+#crypto-safe .crypto-item .content .content-top {
+    margin: 0px -15px;
+    margin-top: -30px;
+}
+#crypto-safe .crypto-item .content .left-item {
+    padding: 0px 15px;
+    margin-top: 30px;
+}
+#crypto-safe .crypto-item .content .hardware-wallet {
+    flex: 0 0 auto;
+    width: 59.66%;
+}
+#crypto-safe .crypto-item .content .left-item-box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 44.485px rgba(0, 0, 0, 0.11);
+    border-radius: 28px;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9;
+}
+#crypto-safe .crypto-item .content .left-item-box .title{
+    color: #241E6D;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#crypto-safe .crypto-item .content .left-item-box .text {
+    margin-bottom: 20px;
+}
+#crypto-safe .crypto-item .content .left-item-box .text p {
+    color: #241E6D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+#crypto-safe .crypto-item .content .left-item-box a {
+    color: #3E1CC9;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    display: inline-block;
+    width: 100%;
+    z-index: 9;
+}
+#crypto-safe .crypto-item .content .cypher {
+    flex: 0 0 auto;
+    width: 40.16%;
+}
+#crypto-safe .crypto-item .content .extension {
+    flex: 0 0 auto;
+    width: 42.95%;
+}
+#crypto-safe .crypto-item .content .mobile-wallet {
+    flex: 0 0 auto;
+    width: 57.05%;
+}
+#crypto-safe .crypto-item .content .left-item-box.hover-img img{
+    font-size: 0px;
+    border-radius: 28px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+#crypto-safe .crypto-item .content .hardware-wallet-text:before  {
+    content: "";
+    background: url('/assets/img/secuire/hardware-wallet-hover.png') center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+#crypto-safe .crypto-item .content .hardware-wallet-text:hover:before {
+    opacity: 0;
+    z-index: -1;
+    background-size: auto 120%;
+}
+
+#crypto-safe .crypto-item .content .cypher-text:before  {
+    content: "";
+    background: url('/assets/img/secuire/cypher-hover.png') center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* background-size: cover; */
+}
+#crypto-safe .crypto-item .content .cypher-text:hover:before {
+    opacity: 0;
+    z-index: -1;
+    background-size: auto 120%;
+    /* width: 0%;
+    height: 0%; */
+}
+
+#crypto-safe .crypto-item .content .extension-text:before  {
+    content: "";
+    background: url('/assets/img/secuire/extension-hover.png') center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* background-size: cover; */
+}
+#crypto-safe .crypto-item .content .extension-text:hover:before {
+    opacity: 0;
+    z-index: -1;
+    background-size: auto 120%;
+    /* width: 0%;
+    height: 0%; */
+}
+
+#crypto-safe .crypto-item .content .mobile-wallet-text:before  {
+    content: "";
+    background: url('/assets/img/secuire/mobile-wallet-hover.png') center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* background-size: cover; */
+}
+#crypto-safe .crypto-item .content .mobile-wallet-text:hover:before {
+    opacity: 0;
+    z-index: -1;
+    background-size: auto 120%;
+    /* width: 0%;
+    height: 0%; */
+}
+
+
+#crypto-safe .crypto-item .content .left-item-box.mobile-wallet-text .text p,
+#crypto-safe .crypto-item .content .left-item-box.extension-text .text p{
+    margin-bottom: 14.3px;
+}
+#crypto-safe .crypto-item .experience-item {
+    max-width: 355px;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    box-sizing: content-box;
+}
+#crypto-safe .crypto-item .experience-item .img img {
+    border-radius: 18px;
+}
+#crypto-safe .crypto-item .experience-item .img.box {
+    background: #202124;
+    border-radius: 18px;
+    padding: 30px 20px;
+}
+#crypto-safe .crypto-item .experience-item .img.box .box-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+#crypto-safe .crypto-item .experience-item .img.box .box-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+#crypto-safe .crypto-item .experience-item .img.box .box-tips {
+    margin-top: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #504E6D;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+#crypto-safe .crypto-item .experience-item .img.box .box-tips img {
+    width: 16px;
+    height: 16px;
+    font-size: 0px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#crypto-safe .crypto-item .experience-item .img.box .box-tips p {
+    color: #9E9CB1;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+#crypto-safe .crypto-item .experience-item .img.box .box-btn {
+    background: #6A66FF;
+    border-radius: 8px;
+    color: #FCFCFC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    width: 100%;
+    padding: 14.5px 20px;
+}
+#crypto-safe .crypto-item .content-text .text h3 {
+    color: #221D69;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+#crypto-safe .crypto-item .content-text .text p {
+    color: #221D69;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+#crypto-safe .experience-download-btn {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#crypto-safe .experience-download-btn .set-off-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(130deg, rgba(74, 33, 239, 0.05) 0%, rgba(74, 33, 239, 0.00) 100%);
+    border-radius: 100px;
+    padding: 12px;
+}
+#crypto-safe .experience-download-btn .downloads-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #F7F6FF;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 100px;
+    background-color: #4A21EF;
+    line-height: 1.6;
+    border: none;
+}
+
+/* ----------------------storage-zero-tolerance */
+#crypto-safe .storage-zero-tolerance {
+    margin-top: 100px;
+}
+#crypto-safe .storage-zero-tolerance .storage-leakage{
+    margin: 0px -15px;
+    margin-bottom: 190px;
+}
+#crypto-safe .storage-zero-tolerance .storage-leakage .item-left {
+    flex: 0 0 auto;
+    width: 40%;
+    padding: 0px 15px;
+    text-align: center;
+}
+#crypto-safe .storage-zero-tolerance .storage-leakage .item-right {
+    flex: 0 0 auto;
+    width: 60%;
+    padding: 0px 15px;
+    text-align: left;
+    align-self: center;
+}
+#crypto-safe .storage-zero-tolerance .storage-leakage .item-right h3 {
+    /* max-width: 578px; */
+    max-width: 100%;
+    width: 100%;
+    color: #241E6D;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 37px;
+}
+#crypto-safe .storage-zero-tolerance .storage-leakage .item-right p {
+    color: #221D69;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance{
+    margin: 0px -12px;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-left {
+    flex: 0 0 auto;
+    width: 49.8%;
+    padding: 0px 12px;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right {
+    flex: 0 0 auto;
+    width: 50.2%;
+    padding: 0px 12px;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-left h3 {
+    color: #241E6D;
+    font-weight: 1000;
+    font-size: 46px;
+    line-height: 100%;
+    margin-bottom: 22px;
+} 
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-left p {
+    color: #221D69;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item {
+    padding: 24px 30px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .dapp {
+    background: rgba(74, 33, 239, 0.1);
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .dapp .num {
+    color: #4A21EF;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .websites {
+    background: rgba(121, 239, 189, 0.2);
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .websites .num {
+    color: #29CC85;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .accounts {
+    background: rgba(255, 69, 58, 0.1);
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .accounts .num {
+    color: #FF453A;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item .purecounter {
+    font-weight: 1000;
+    font-size: 72px;
+    line-height: 100%;
+    margin-right: 20px;
+}
+#crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item .text {
+    color: #0D0B33;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+@media (max-width: 991px) {
+    #crypto-safe {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 0px;
+        background: none;
+        background-size: auto;
+    }
+    #crypto-safe .crypto-safe-box {
+        padding: 0px 16px;
+    }
+    #crypto-safe .crypto-item.dapp-experience-box {
+        margin-top: 0px;
+    }
+    #crypto-safe .crypto-item.experience-item {
+        margin-top: 88px;
+    }
+    #crypto-safe .crypto-item .title {
+        margin: 42px 0px 27px;
+    }
+    #crypto-safe .crypto-item .title h3 {
+        color: #000000;
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+    }
+    #crypto-safe .crypto-item .content {
+        margin-bottom: 88px;
+    }
+    #crypto-safe .crypto-item .content .content-top {
+        margin: 0px;
+    }
+    #crypto-safe .crypto-item .content .left-item {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    #crypto-safe .crypto-item .content .hardware-wallet {
+        flex: 0 0 auto;
+        width: 59.84%;
+    }
+    #crypto-safe .crypto-item .content .left-item-box {
+        background: transparent;
+        box-shadow: unset;
+        border-radius: unset;
+        padding: 0px;
+        height: auto;
+        width: 100%;
+        margin-top: 16px;
+    }
+    #crypto-safe .crypto-item .content .swiper-img  {
+        border-radius: 8px;
+        height: auto;
+        width: 100%;
+    }
+    #crypto-safe .crypto-item .content .left-item-box .title{
+        color: #0E0C34;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 160%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #crypto-safe .crypto-item .content .left-item-box .text {
+        margin-bottom: 10px;
+    }
+    #crypto-safe .crypto-item .content .left-item-box .text p {
+        color: #0E0C34;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 10px;
+    }
+    #crypto-safe .crypto-item .content .left-item-box a {
+        color: #3E1CC9;
+        text-decoration-line: underline;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #crypto-safe .crypto-item .content .cypher {
+        flex: 0 0 auto;
+        width: 40.16%;
+    }
+    #crypto-safe .crypto-item .content .extension {
+        flex: 0 0 auto;
+        width: 42.95%;
+    }
+    #crypto-safe .crypto-item .content .mobile-wallet {
+        flex: 0 0 auto;
+        width: 57.05%;
+    }
+    #crypto-safe .crypto-item .content .left-item-box.hover-img img{
+        font-size: 0px;
+        border-radius: 28px;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    
+    #crypto-safe .crypto-item .content .left-item-box.mobile-wallet-text .text p,
+    #crypto-safe .crypto-item .content .left-item-box.extension-text .text p{
+        margin-bottom: 14.3px;
+    }
+    #crypto-safe .crypto-item .dapp-experience {
+        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    #crypto-safe .crypto-item .experience-item {
+        max-width: 355px;
+        width: 100%;
+        flex: none;
+        box-sizing: border-box;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    #crypto-safe .crypto-item .experience-item .img {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #crypto-safe .crypto-item .experience-item .img img {
+        border-radius: 18px;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box {
+        background: #202124;
+        border-radius: 18px;
+        padding: 30px 20px;
+        margin-bottom: 10px;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box .box-title {
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 8px;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box .box-text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box .box-tips {
+        margin-top: 10px;
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border: 1px solid #504E6D;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box .box-tips img {
+        width: 16px;
+        height: 16px;
+        font-size: 0px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box .box-tips p {
+        color: #9E9CB1;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    #crypto-safe .crypto-item .experience-item .img.box .box-btn {
+        background: #6A66FF;
+        border-radius: 8px;
+        color: #FCFCFC;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        width: 100%;
+        padding: 14.5px 20px;
+    }
+    #crypto-safe .crypto-item .dapp-experience .text h3 {
+        color: #0E0C34;
+        font-weight: 1000;
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 5px;
+    }
+    #crypto-safe .crypto-item .dapp-experience .text p {
+        color: #221D69;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+    }
+    #crypto-safe .experience-download-btn {
+        margin-top: 0px;
+    }
+    /* ----------------------storage-zero-tolerance */
+    #crypto-safe .storage-zero-tolerance {
+        margin: 0px;
+        margin-top: 86px;
+    }
+    #crypto-safe .storage-zero-tolerance .storage-leakage{
+        margin: 0px;
+        
+    }
+    #crypto-safe .storage-zero-tolerance .storage-leakage .item-left {
+        flex: unset;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #crypto-safe .storage-zero-tolerance .storage-leakage .item-right {
+        flex: unset;
+        width: 100%;
+        padding: 0px;
+        text-align: left;
+        align-self: center;
+    }
+    #crypto-safe .storage-zero-tolerance .storage-leakage .item-right h3 {
+        max-width: 100%;
+        width: 100%;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    #crypto-safe .storage-zero-tolerance .storage-leakage .item-right p {
+        color: #221D69;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance{
+        margin: 0px;
+        margin-top: 110px;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-left {
+        flex: unset;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 18px;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right {
+        flex: unset;
+        width: 100%;
+        padding: 0px;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-left h3 {
+        text-align: center;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 8px;
+    } 
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-left p {
+        text-align:center;
+        color: #000000;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item {
+        padding: 16px 20px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item:nth-last-child(1) {
+        margin-bottom: 0px;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .dapp {
+        background: rgba(74, 33, 239, 0.1);
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .dapp .num {
+        color: #4A21EF;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .websites {
+        background: rgba(121, 239, 189, 0.2);
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .websites .num {
+        color: #29CC85;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .accounts {
+        background: rgba(255, 69, 58, 0.1);
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .accounts .num {
+        color: #FF453A;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item .purecounter {
+        font-weight: 1000;
+        font-size: 48px;
+        line-height: 100%;
+        margin-right: 0px;
+    }
+    #crypto-safe .storage-zero-tolerance .zero-tolerance .item-right .item .text {
+        color: #0D0B33;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+    }
+}
+/* ----------------------storage-zero-tolerance */
+/* ----------help-guide-box */
+#crypto-safe .help-guide {
+    margin-top: 187px;
+}
+#crypto-safe .help-guide-box {
+    padding: 40px 50px;
+    background: linear-gradient(42.62deg, #0D0B33 17.22%, #4B3ED3 79.09%);
+    border-radius: 48px;
+}
+#crypto-safe .help-guide-box h3.title {
+    max-width: 700px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+#crypto-safe .help-guide-box .box-content {
+    border-radius: 20px;
+}
+#crypto-safe .help-guide-box .box-content .text-item {
+    display: inline-block;
+    padding: 36.5px 80px 36.5px 30px;
+    color: #F7F6FF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    border-bottom: 1px solid #302C73;
+    min-height: 160px;
+}
+#crypto-safe .help-guide-box .box-content .text-item:nth-last-child(1) {
+    border: none;
+}
+#crypto-safe .help-guide-box .box-content .show-text {
+    max-width: 546px;
+    width: 100%;
+}
+#crypto-safe .help-guide-box .box-content .show-img {
+    background: #F2F5F8;
+    border-radius: 0px 20px 20px 0px;
+    max-width: 554px;
+}
+#crypto-safe .help-guide-box .box-content .show-img img {
+    border-radius: 0px 20px 20px 0px;
+}
+#crypto-safe .help-guide-box .box-content .text-item.text-infographic {
+    border-radius: 20px 0px 0px 0px;
+}
+#crypto-safe .help-guide-box .box-content .text-item.active {
+    background: #4A21EF;
+}
+#crypto-safe .help-guide-box .box-content .text-item.text-help-center {
+    border-radius: 0px 0px 0px 20px;
+}
+
+#crypto-safe .start-crypto {
+    transform: translateY(230px);
+}
+#crypto-safe .start-crypto .start-crypto-title {
+   margin-bottom: 60px;
+}
+#crypto-safe .start-crypto .start-crypto-title h3.title {
+    margin:0 auto;
+    max-width: 578px;
+    color: #241E6D;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 1000;
+    line-height: 100%;
+}
+#crypto-safe .start-crypto .download {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#crypto-safe .start-crypto .download .set-off-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(130deg, rgba(74, 33, 239, 0.05) 0%, rgba(74, 33, 239, 0.00) 100%);
+    border-radius: 100px;
+    padding: 12px;
+}
+#crypto-safe .start-crypto .download .downloads-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #FFF;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 100px;
+    background-color: #4A21EF;
+    line-height: 1.6;
+    border: none;
+}
+
+
+@media (max-width: 991px) {
+    #crypto-safe .help-guide{
+        transform: translateY(0px);
+    }
+    #crypto-safe .help-guide {
+        margin: 0px;
+        margin-top: 60px;
+    }
+    #crypto-safe .help-guide-box {
+        padding: 32px 20px;
+        background: linear-gradient(42.62deg, #0D0B33 17.22%, #4B3ED3 79.09%);
+        border-radius: 30px;
+    }
+    #crypto-safe .help-guide-box h3.title {
+        max-width: 100%;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 120%;
+        margin: 0 auto;
+        margin-bottom: 36px;
+    }
+    #crypto-safe .help-guide-box .box-content {
+        border-radius: 20px;
+    }
+    #crypto-safe .help-guide-box .box-content .text-item {
+        display: inline-block;
+        padding: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        border-bottom: none;
+        min-height: auto;
+    }
+    #crypto-safe .help-guide-box .box-content .text-item:nth-last-child(1) {
+        border: none;
+    }
+    #crypto-safe .help-guide-box .box-content .show-text {
+        max-width: 100%;
+        width: 100%;
+    }
+    #crypto-safe .help-guide-box .box-content .show-img {
+        background: #F2F5F8;
+        border-radius: 20px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    #crypto-safe .help-guide-box .box-content .show-img img {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
+    #crypto-safe .help-guide-box .box-content .text-item.text-infographic {
+        border-radius: unset;
+    }
+    #crypto-safe .help-guide-box .box-content .text-item.text-help-center {
+        border-radius: unset;
+    }
+    #crypto-safe .help-guide-box .help-guide-swiper-pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #crypto-safe .start-crypto{
+        transform: translateY(64px);
+    }
+    #crypto-safe .start-crypto .start-crypto-title {
+        margin-bottom: 30px;
+     }
+    #crypto-safe .start-crypto .start-crypto-title h3.title {
+        margin:0 auto;
+        max-width: 100%;
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 1000;
+        line-height: 120%;
+    }
+    #crypto-safe .start-crypto .download {
+        margin-top: 45px;
+    }
+}
+/* ---------- help-guide-box */
+#main .excessive-background {
+    height: 473px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 2.08%, #A898F3 100%);
+}
+@media (max-width: 991px) {
+    #main .excessive-background {
+        height: 105px;
+        width: 100%;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 2.08%, #A898F3 100%);
+    } 
+}
+/* ----------------------------------------------------------------- */
+.one-wallet-footer {
+    background: linear-gradient(
+        109.75deg,
+        rgba(117, 84, 252, 0) 35.1%,
+        rgba(117, 84, 252, 0.2) 99.39%
+      ),
+      linear-gradient(162.15deg, rgba(13, 11, 51, 0) 1.61%, #0d0b33 71.13%),
+      #4a21ef;
+    background-position: center;
+}
+.one-wallet-footer-main {
+    background: url("/assets/img/crypto-stripe1.svg") no-repeat,
+        url("../img/one-wallet-footer-bg.svg") no-repeat,
+        url("../img/crypto-stripe1.svg") no-repeat;
+    background-position: top left, bottom, bottom right -26%;
+    background-size: auto;
+    animation: starFooter 5s ease-in infinite;
+}
+@media (min-width: 991px) {
+    @keyframes starFooter {
+        0% {
+        background: url("../img/one-wallet-footer-bg.svg") no-repeat,
+            url("/assets/img/crypto-stripe1.svg") no-repeat,
+            url("../img/crypto-stripe1.svg") no-repeat;
+        background-position: bottom, top left, bottom right -26%, center;
+        background-size: auto;
+        }
+        50% {
+        background: url("../img/one-wallet-footer-bg2.svg") no-repeat,
+            url("/assets/img/crypto-stripe1.svg") no-repeat,
+            url("../img/crypto-stripe1.svg") no-repeat;
+        background-position: bottom, top left, bottom right -26%, center;
+        background-size: auto;
+        }
+        100% {
+        background: url("../img/one-wallet-footer-bg.svg") no-repeat,
+            url("/assets/img/crypto-stripe1.svg") no-repeat,
+            url("../img/crypto-stripe1.svg") no-repeat;
+        background-position: bottom, top left, bottom right -26%, center;
+        background-size: auto;
+        }
+    }
+}
+#one-wallet {
+    padding-top: 132px;
+}
+/* ----one-wallet---- */
+#one-wallet .one-wallet {
+    text-align: center;
+    max-width: 800px;
+    margin: 48px auto;
+}
+#one-wallet .one-wallet .sfp-logo {
+    margin-bottom: 50px;
+}
+#one-wallet .one-wallet .sfp-logo .logo-box {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#one-wallet .one-wallet .title {
+    margin-bottom: 48px;
+}
+#one-wallet .one-wallet .title h3 {
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 80px;
+    line-height: 1;
+    text-align: center;
+}
+#one-wallet .one-wallet .download .set-off-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(
+      183.08deg,
+      rgba(191, 255, 228, 0.2) 43.82%,
+      rgba(191, 255, 228, 0) 111.17%
+    );
+    border-radius: 100px;
+    padding: 10px;
+}
+#one-wallet .one-wallet .download .downloads-btn {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #0d0b33;
+    font-size: 18px;
+    padding: 16px 24px;
+    border-radius: 100px;
+    background-color: #79efbd;
+    line-height: 1.6;
+    border: none;
+}
+@media (max-width: 991px) {
+    .one-wallet-footer {
+      background: linear-gradient(
+          109.75deg,
+          rgba(117, 84, 252, 0) 35.1%,
+          rgba(117, 84, 252, 0.2) 99.39%
+        ),
+        linear-gradient(162.15deg, rgba(13, 11, 51, 0) 1.61%, #0d0b33 71.13%),
+        #4a21ef;
+    }
+    .one-wallet-footer-main {
+      background: url("/assets/img/crypto-stripe1.svg") no-repeat,
+        url("../img/one-wallet-footer-bg-m.svg") no-repeat,
+        url("../img/crypto-stripe1.svg") no-repeat;
+      background-position: top left, bottom, bottom right 320%, center;
+      background-size: auto;
+    }
+    #one-wallet .one-wallet {
+      max-width: 100%;
+      padding: 0px 16px;
+    }
+    #one-wallet .one-wallet .title h3 {
+      font-size: 48px;
+    }
+    #one-wallet .one-wallet .download .downloads-btn {
+      font-weight: 500;
+    }
+    .crypto-safe-swiper-pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
